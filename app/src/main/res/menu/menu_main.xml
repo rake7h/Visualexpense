@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/view_expense"
+        android:icon="@drawable/ic_list"
+        android:title="Add"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/Add_wallet"
+        android:icon="@drawable/ic_wallet_action"
+        android:title="Add"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/view_pie"
+        android:icon="@drawable/ic_pie_chart"
+        android:title="Add"
+        app:showAsAction="always" />
+
+
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_help"
+        android:orderInCategory="100"
+        android:title="@string/action_help"
+        app:showAsAction="never" />
+
+
+</menu>

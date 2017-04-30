@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">Visual expense</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_help">Help</string>
+    <string name="section_format">Expense</string>
+    <string name="title_activity_tab">TabActivity</string>
+    <string name="title_activity_list">list</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_passwordlogin"> Password</string>
+    <string name="hint_usernamelogin">Username</string>
+    <string name="hint_password">Choose password</string>
+    <string name="hint_username">Choose username</string>
+    <string name="btn_login">LOG IN</string>
+    <string name="btn_signup">SIGN UP</string>
+
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+
+    <string name="forgot_pass">Forgot password?</string>
+    <string name="name">Fullname</string>
+
+    <string name="expense_name">Name</string>
+    <string name="expense_amount">Amount</string>
+    <string name="expense_des">Add an long descitoon</string>
+    <string name="empty_wallet">"You haven't added any amount in wallet."</string>
+    <string name="empty_wallet_click">Tap to add income amount</string>
+    <string name="please_connect_to_internet">Please connect to internet</string>
+
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_item_dispay">ItemDispayActivity</string>
+    <string name="title_activity_add_item">AddItem</string>
+    <string name="title_activity_pager">PagerActivity</string>
+    <string name="title_activity_nav">NavActivity</string>
+    <string name="addexpense">Fill Your Wallet</string>
+    <string name="rs">\u20B9</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    <string name="title_activity_nav_drawer">NavDrawerActivity</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Dashboard</item>
+        <item>Expenses</item>
+        <item>Wallet</item>
+        <item>Account</item>
+        <item>Settings</item>
+        <item>About</item>
+
+    </string-array>
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+
+    <!-- AdMob ad unit IDs -->
+    <string name="ad_1">ca-app-pub-2328174728284271/8069158775</string>
+    <string name="ad_2">ca-app-pub-2328174728284271/2022625176</string>
+    <string name="ad3_full">ca-app-pub-2328174728284271/9919165176</string>
+
+    <!--++++++++++++++++++++++++++-->
+    <!--added on API 16 (JB - 4.1)-->
+    <!--++++++++++++++++++++++++++-->
+    <!--the default font-->
+    <string name="fontFamily__roboto_regular">sans-serif</string>
+    <string name="fontFamily__roboto_light">sans-serif-light</string>
+    <string name="fontFamily__roboto_condensed">sans-serif-condensed</string>
+
+    <!--+++++++++++++++++++++++++++++-->
+    <!--added on API 17 (JBMR1 - 4.2)-->
+    <!--+++++++++++++++++++++++++++++-->
+    <string name="fontFamily__roboto_thin">sans-serif-thin</string>
+
+    <!--+++++++++++++++++++++++++++-->
+    <!--added on Lollipop (LL- 5.0)-->
+    <!--+++++++++++++++++++++++++++-->
+    <string name="fontFamily__roboto_medium">sans-serif-medium</string>
+    <string name="fontFamily__roboto_black">sans-serif-black</string>
+    <string name="fontFamily__roboto_condensed_light">sans-serif-condensed-light</string>
+
+</resources>

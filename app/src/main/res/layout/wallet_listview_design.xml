@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+
+
+
+    <ImageView
+        android:id="@+id/edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_mode_edit"
+
+        android:paddingRight="10dp"
+        android:layout_marginTop="6dp"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/delete" />
+
+    <ImageView
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_delete"
+        android:layout_alignTop="@+id/edit"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <TextView
+        android:id="@+id/sno"
+        style="@android:style/TextAppearance.Holo.Widget.TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="100"
+        android:textColor="@color/indicator_unselected"
+        android:textSize="16dp"
+        android:layout_alignBottom="@+id/edit"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/amount_view"
+        style="@android:style/TextAppearance.Holo.Widget.TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#009688"
+        android:text="100000"
+
+        android:textSize="16dp"
+        android:textStyle="normal"
+        android:layout_alignTop="@+id/sno"
+        android:layout_toRightOf="@+id/rs"
+        android:layout_toEndOf="@+id/rs"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp" />
+
+    <TextView
+        style="@android:style/TextAppearance.Holo.Widget.TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="12-apr-2015 12 12pm"
+        android:id="@+id/amount_date"
+        android:textSize="16dp"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/amount_view"
+        android:layout_toLeftOf="@+id/edit"
+        android:layout_toStartOf="@+id/edit" />
+
+    <TextView
+        style="@android:style/TextAppearance.Holo.Widget.TextView"
+        android:id="@+id/rs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rs"
+        android:textSize="16dp"
+        android:textColor="#009688"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="5dp"
+        android:layout_alignTop="@+id/amount_view"
+        android:layout_toRightOf="@+id/sno"
+        android:layout_toEndOf="@+id/sno" />
+
+</RelativeLayout>
